@@ -8,7 +8,6 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-size: 15px;
   font-family: "Outfit", sans-serif;
-  position: relative;
 }
 
 .qr-code {
@@ -17,9 +16,6 @@ body {
   text-align: center;
   border-radius: 15px;
   padding: 15px;
-  margin: 0 auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 img {
@@ -42,6 +38,9 @@ img {
 
 footer {
   text-align: center;
+  width:240px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 @media screen and (min-width: 350px) {
@@ -49,15 +48,21 @@ footer {
     width: 270px;
     margin: 0 auto;
     margin-top: 15%;
-    margin-bottom: 8%;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (min-width: 700px) {
   .qr-code {
     width: 270px;
-    margin: 0 auto;
-    margin-top: 7%;
-    margin-bottom: 5%;
+    margin:0;
+    margin-bottom: 20px;
+  }
+  body {
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
