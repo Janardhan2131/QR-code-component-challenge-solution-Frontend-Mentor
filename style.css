@@ -34,13 +34,14 @@ img {
   color: #777;
   font-size: 14px;
   text-align: center;
+  font-weight: 300;
 }
 
 footer {
   text-align: center;
-  width:240px;
-  margin-left:auto;
-  margin-right:auto;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 350px) {
@@ -55,12 +56,12 @@ footer {
 @media screen and (min-width: 700px) {
   .qr-code {
     width: 270px;
-    margin:0;
+    margin: 0;
     margin-bottom: 20px;
   }
   body {
-    height:100vh;
-    display:flex;
+    height: 100vh;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
